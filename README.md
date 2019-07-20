@@ -1,6 +1,6 @@
 > ##### ✋ Psst! Migrating from v1.x to v2.x? We got you. Check our [**migration guide**](https://github.com/rafaelrinaldi/pure/releases/tag/v2.0.0) and happy upgrading!
 
-# pure [![travis-badge]][travis-link] ![fish-2.5] ![fish-2.6] ![fish-2.7.1] ![fish-3.0.0] 
+# pure [![travis-badge]][travis-link] ![fish-2.5] ![fish-2.6] ![fish-2.7.1] ![fish-3.0.0]
 
 > Pretty, minimal and fast Fish 🐟 prompt, ported from [`zsh`](https://github.com/sindresorhus/pure).
 
@@ -35,6 +35,7 @@ fisher add rafaelrinaldi/pure
 ```fish
 omf install pure
 ln -s $OMF_PATH/themes/pure/conf.d/pure.fish ~/.config/fish/conf.d/pure.fish
+ln -s $OMF_PATH/themes/pure/conf.d/_pure_init.fish ~/.config/fish/conf.d/pure_init.fish
 ```
 
 :information_source: [why the symlink?](https://github.com/rafaelrinaldi/pure/wiki/Oh-My-Fish-not-currently-supporting-conf.d-snippets-in-plugins-and-themes)
@@ -119,6 +120,7 @@ You can tweak pretty much everything in `pure` by overriding variables in your `
 
 - [Rafael Rinaldi](https://github.com/rafaelrinaldi)
 - [Édouard Lopez](https://github.com/edouard-lopez)
+- [Andrei Borisov](https://github.com/schrodincat)
 
 Kudos to all our awesome [:yellow_heart: contributors :yellow_heart:](../..//graphs/contributors)
 
@@ -136,8 +138,8 @@ MIT © [Rafael Rinaldi](http://rinaldi.io)
 [travis-badge]: https://travis-ci.org/rafaelrinaldi/pure.svg?branch=master
 [fish-2.5]: https://img.shields.io/badge/fish-v2.5.0-007EC7.svg?style=flat-square "Support Fish 2.5"
 [fish-2.6]: https://img.shields.io/badge/fish-v2.6.0-007EC7.svg?style=flat-square "Support Fish 2.6"
-[fish-2.7.1]: https://img.shields.io/badge/fish-v2.7.1.0-007EC7.svg?style=flat-square "Support Fish 2.7.1"
-[fish-3.0.0]: https://img.shields.io/badge/fish-v3.0.0.0-007EC7.svg?style=flat-square "Support Fish 3.0.0"
+[fish-2.7.1]: https://img.shields.io/badge/fish-v2.7.1-007EC7.svg?style=flat-square "Support Fish 2.7.1"
+[fish-3.0.0]: https://img.shields.io/badge/fish-v3.0.0-007EC7.svg?style=flat-square "Support Fish 3.0.0"
 [changelog-2.5]: https://github.com/fish-shell/fish-shell/releases/tag/2.5.0 "Changelog Fish 2.5"
 [changelog-2.6]: https://github.com/fish-shell/fish-shell/releases/tag/2.6.0 "Changelog Fish 2.6"
 [changelog-2.7.1]: https://github.com/fish-shell/fish-shell/releases/tag/2.7.1 "Changelog Fish 2.7.1"
